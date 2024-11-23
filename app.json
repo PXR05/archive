@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Archive",
+    "slug": "archive",
+    "version": "1.0.0",
+    "scheme": "com.pxr.archive",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#000000",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "permissions": ["android.permission.RECORD_AUDIO"],
+      "package": "com.pxr.archive",
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "plugins": ["expo-router", "expo-font"],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "85f3b816-f3d0-4932-aec1-3f3c2cda6bc9"
+      }
+    },
+    "owner": "pxr"
+  }
+}
